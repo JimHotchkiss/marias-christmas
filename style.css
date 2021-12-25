@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Vujahday+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    color: #ff004c;
+    font-family: 'Vujahday Script', cursive;
+    font-size: 42px;
+    box-shadow: 2px 2px 5px #888888;
+}
+
+.logo-text {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+
+}
+
+.navbar img {
+    width: 30px;
+    margin: 0 5px 0 8px;
+ 
+}
+
+.love-you {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    
+}
+
+.tree-img {
+    max-width: 180px;
+    margin: 200px auto;
+}
+
+.tree-img:hover{
+   cursor: pointer;
+}
+
+.tree-img.hide {
+    display: none;
+}
+
+
+
+.image-div {
+    display: none;
+    max-width: 410px;
+   margin: 220px 0 0 620px;
+}
+
+.image-div.show {
+    display: block;
+}
